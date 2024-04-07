@@ -15,7 +15,6 @@ int main() {
     int carpim = 1;
     float bolum;
 
-    // Kullanıcıdan 4 sayıyı alın
     cout << "Lutfen 4 sayi giriniz:\n";
     for (int i = 0; i < 4; ++i) {
         cout << i + 1 << ". sayi: ";
@@ -24,10 +23,8 @@ int main() {
         carpim *= sayilar[i];
     }
 
-    // Toplamı, çarpımı ve bölümü hesapla
     bolum = static_cast<float>(toplam) / static_cast<float>(carpim);
 
-    // Sonuçları ekrana yazdır
     cout << "Toplam: " << toplam << endl;
     cout << "Carpim: " << carpim << endl;
     cout << "Bolum: " << bolum << endl;
